@@ -1,0 +1,148 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# virtualenv
+venv/
+env/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# PyCharm
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.db
+*.lnk
+
+# Linux
+*~
+
+# Logs
+*.log
+logs/
+tensorboard/
+
+# Training outputs
+experiments/
+checkpoints/
+
+# Uploaded images
+static/uploads/*
+!static/uploads/.gitkeep
+
+# Output images
+output/
+results/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Training data (if large)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.npy
+*.npz
+
+# Exceptions for style images
+!yungang_styles/*
+
+# MLFlow
+mlruns/
+
+# DVC
+.dvc/
+.dvcignore
+
+# Temporary files
+*.tmp
+*.temp
+
+# Project specific
+training_logs/
+generated/
+test_output/

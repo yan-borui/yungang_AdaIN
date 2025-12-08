@@ -1,0 +1,8 @@
+Flask>=2.0.0
+Pillow>=9.0.0
+torch>=1.9.0
+torchvision>=0.10.0
+numpy>=1.19.0
+requests>=2.25.0
+tensorboardX>=2.4.0
+tqdm>=4.61.0
