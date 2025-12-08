@@ -18,7 +18,7 @@
 ## 📁 项目结构
 
 ```
-yungang_style_transfer/
+yungang_AdaIN/
 ├── app.py                    # Flask Web应用
 ├── net.py                    # 网络模型定义
 ├── yungang_adain.py          # 云冈风格迁移类
@@ -45,13 +45,15 @@ yungang_style_transfer/
 - Python 3.7+
 - PyTorch 1.9.0+
 - CUDA 11.0+（如果使用GPU）
+- **Git LFS**（用于管理模型文件）
 
 ### 安装步骤
 
 1. **克隆项目**
 ```bash
-git clone <项目地址>
-cd yungang_style_transfer
+git lfs install  # 确保已安装 Git LFS
+git clone https://github.com/yan-borui/yungang_AdaIN
+cd yungang_AdaIN
 ```
 
 2. **安装依赖**
@@ -76,7 +78,7 @@ mkdir -p models yungang_styles static/uploads
 python run.py
 ```
 
-2. 启动后，在浏览器中访问：`http://localhost:5000`
+2. 启动后，在浏览器中访问：`http://localhost:5000`（事实上会自动打开）
 
 3. **使用步骤**：
    - 上传要处理的图片
