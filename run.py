@@ -2,16 +2,12 @@
 # run.py - 一键启动脚本
 import os
 import sys
-import io
 import codecs
 import subprocess
 import webbrowser
 import time
 import threading
 import requests
-
-sys.stdout = io.TextIOWrapper(io.BufferedWriter(sys.stdout.buffer, 0), write_through=True)
-sys.stderr = io.TextIOWrapper(io.BufferedWriter(sys.stderr.buffer, 0), write_through=True)
 
 if sys.platform == 'win32':
     # Windows下设置控制台编码为UTF-8
