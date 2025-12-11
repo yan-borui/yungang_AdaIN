@@ -254,7 +254,7 @@ app.run(host='0.0.0.0', port=5001, debug=True)
 
 ## 🙏 致谢
 
-- 感谢 [AdaIN原作者](https://github.com/naoto0804/pytorch-AdaIN)的工作
+- 感谢 [pytorch-AdaIN原作者](https://github.com/naoto0804/pytorch-AdaIN)的工作
 - 感谢云冈石窟提供艺术灵感
 
 ---
